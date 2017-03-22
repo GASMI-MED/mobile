@@ -1,0 +1,9 @@
+category {
+id (string, optional),
+createdAt (string, optional, read only),
+updatedAt (string, optional, read only),
+version (string, optional, read only),
+deleted (boolean, optional),
+name (string, optional),
+icon (string, optional)
+}

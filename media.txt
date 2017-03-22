@@ -1,0 +1,9 @@
+media {
+id (string, optional),
+createdAt (string, optional, read only),
+updatedAt (string, optional, read only),
+version (string, optional, read only),
+deleted (boolean, optional),
+url (string, optional),
+id_owner (string, optional)
+}

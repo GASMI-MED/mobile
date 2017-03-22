@@ -1,0 +1,20 @@
+customers {
+id (string, optional),
+name (string, optional),
+id_category (string, optional),
+version (string, optional, read only),
+createdAt (string, optional, read only),
+updatedAt (string, optional, read only),
+deleted (boolean, optional),
+sponser (number, optional),
+icon (string, optional),
+lat (number, optional),
+log (number, optional),
+phone (string, optional),
+youtube (string, optional),
+facebook (string, optional),
+tweeter (string, optional),
+image1 (string, optional),
+image2 (string, optional),
+image3 (string, optional)
+}
